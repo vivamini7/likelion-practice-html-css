@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>런어스</title>
+    <link rel="shortcut icon" href="https://www.learnus.org/theme/image.php/coursemosv2/theme/1711562572/favicon">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="bar">
+        <div class ="bar-container">
+            <div class="container">
+                <div class="nav-menu">
+                    <ul class="nav-btn">
+                        <li>   
+                            <div class="dropdown">
+                                <a id="user-info-lang" href="#" class="dropbutton" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                        한국어
+                                    <span class="langname"></span>
+                                    <script>
+                                        // 드롭다운 버튼에 클릭 이벤트 리스너를 추가하는 함수
+                                        function setupDropdown() {
+                                        // 드롭다운 버튼 요소를 찾습니다
+                                        var dropButton = document.getElementById('user-info-lang');
+                                        // 드롭다운 메뉴 요소를 찾습니다
+                                        var dropdownMenu = dropButton.nextElementSibling;
+
+                                        // 드롭다운 버튼에 클릭 이벤트 리스너를 추가합니다
+                                        dropButton.addEventListener('click', function(event) {
+                                            // 드롭다운 메뉴의 표시 상태를 토글합니다
+                                            dropdownMenu.classList.toggle('show');
+                                            // 이벤트의 기본 동작을 방지합니다
+                                            event.preventDefault();
+                                        });
+                                        }
+                                        // 페이지가 로드될 때 함수를 실행합니다
+                                        window.onload = setupDropdown;
+                                    </script>
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="user-info-lang" x-placement="bottom-start" style="position: absolute; will-change: transform; top: 0px; transform: translate3d(1050px, 60px, 0px)">
+                                    <a href="https://www.learnus.org/index.php?lang=en" title="English" class="a-lang dropdown-item" data-lang="en">
+                                        English
+                                    </a>
+                                    <a href="https://www.learnus.org/index.php?lang=ko" title="한국어" class="a-lang dropdown-item" data-lang="ko">
+                                        한국어
+                                    </a>    
+                                </div>
+                            </div>
+                        </li> 
+                        <li class="dropbutton1"><a href="https://www.learnus.org/login/register/register_agree.php">회원가입</a></li>
+                        <li class="dropbutton1"><a href="https://www.learnus.org/login.php?errorcode=4">로그인</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="main">
+            <div class="mainbar">
+                <div class="mainbar1">
+                    <a href="https://www.learnus.org/"><img src="런어스.png"></a>
+                </div>
+                <div class="mainbar2">
+                    <ul class="menu-list1">
+                        <li class="menu-item"><div class="menu-item1">카테고리</div></li>
+                        <li class="menu-item">시그니처</li>
+                        <li class="menu-item">기업교육</li>
+                        <li class="menu-item">EVENT</li>
+                        <li class="menu-item">이용안내</li>
+                    </ul>
+                </div>
+                <div class="mainbar-3">
+                    <a class="menu-list2">
+                        <span></span>
+                        검색
+                    </a>
+                    <a class="menu-list3">
+                        <span></span>
+                        나의 강의실                   
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="login">
+        <div class="hd-image">
+            <a href="https://www.learnus.org/local/ubonline/view.php?id=236151">
+                <div class="hd-image1"></div>
+            </a>
+            <a href="https://www.learnus.org/local/ubonline/view.php?id=236152">
+                <div class="hd-image2"></div>
+            </a>
+            <a href="https://www.learnus.org/local/ubonline/index.php?category=26&keyword=&ordertype=pp_d">
+                <div class="hd-image3"></div>
+            </a>
+        </div>
+    </div>
+    <div class="sec1">
+        <form class="sec1-head">
+            <div class="search">
+                <div class="search-text">세상의 모든 지식과 만나는 곳, LearnUs</div>
+                <div class="search-box">
+                    <div class="search-box1">
+                        <input type="text" class="search-box2" placeholder="배우고 싶은 강좌를 검색해 보세요." value>
+                        <div class="search-submit">
+                            <button type="submit" class="search-submit1">검색</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+    <div class="section">
+        <div class="lecture">
+            <div class="lecture1">
+                <div class="lecture-text">
+                    <h3 class="lecture-text1">
+                        지금 HOT한 강좌
+                        <span></span>
+                    </h3>
+                    <div class="lecture-text2">인기강좌 Top10</div>
+                </div>
+                <div class="lecture-list">
+                    <div class="lecture-list1">
+                        <a href="https://www.learnus.org/local/ubonline/view.php?id=216129">
+                            <div class="course-image">
+                                <img src="https://www.learnus.org/pluginfile.php/4340933/course/overviewfiles/중고등영어.jpg" class="image" alt="쉽고 재미있는 중고등 영어">		
+                            </div>
+                            <div class="course-label">
+                            </div>
+                            <div class="course-body">
+                                <div class="course-professor" title="교육대학원">
+                                    교육대학원  
+                                </div>
+                                <div class="course-title" title="쉽고 재미있는 중고등 영어">
+                                    <span class="ellip">쉽고 재미있는 중고등 영어</span>
+                                </div>
+                                <div class="course-studytime" title="7시간 14분">
+                                    <span>7시간 14분</span>
+                                </div>
+                                <div class="course-amount" title="0">
+                                    <div class="free">무료</div>
+                                </div>
+                                <div class="course-icon" title="">
+                                </div>
+                            </div>		
+                        </a>
+                        <a href="https://www.learnus.org/local/ubonline/view.php?id=216523">
+                            <div class="course-image">
+                                <img src="기초통계.jpg" class="image" alt="???">		
+                            </div>
+                            <div class="course-label">
+                            </div>
+                            <div class="course-body">
+                                <div class="course-professor" title="교육대학원">
+                                    정성현, 박재우  
+                                </div>
+                                <div class="course-title" title="쉽고 재미있는 중고등 영어">
+                                    <span class="ellip">기초 통계</span>
+                                </div>
+                                <div class="course-studytime" title="7시간 14분">
+                                    <span>1시간 46분</span>
+                                </div>
+                                <div class="course-amount" title="0">
+                                    <div class="free">무료</div>
+                                </div>
+                                <div class="course-icon" title="">
+                                    <span class="best">BEST</span>
+                                </div>
+                            </div>		
+                        </a>
+                        <a href="https://www.learnus.org/local/ubonline/view.php?id=235694">
+                            <div class="course-image">
+                                <img src="철학의길.jpg" class="image" alt="???">		
+                            </div>
+                            <div class="course-label">
+                            </div>
+                            <div class="course-body">
+                                <div class="course-professor" title="교육대학원">
+                                    이승종 
+                                </div>
+                                <div class="course-title" title="쉽고 재미있는 중고등 영어">
+                                    <span class="ellip">철학의 길</span>
+                                </div>
+                                <div class="course-studytime" title="7시간 14분">
+                                    <span>78시간 00분</span>
+                                </div>
+                                <div class="course-amount" title="0">
+                                    <div class="free">무료</div>
+                                </div>
+                                <div class="course-icon" title="">
+                                    <span class="best">BEST</span>
+                                </div>
+                            </div>		
+                        </a>
+                        <a href="https://www.learnus.org/local/ubonline/view.php?id=235692">
+                            <div class="course-image">
+                                <img src="기초수학.jpg" class="image" alt="???">		
+                            </div>
+                            <div class="course-label">
+                            </div>
+                            <div class="course-body">
+                                <div class="course-professor" title="교육대학원">
+                                    어쩌구저쩌구
+                                </div>
+                                <div class="course-title" title="쉽고 재미있는 중고등 영어">
+                                    <span class="ellip">기초 수학</span>
+                                </div>
+                                <div class="course-studytime" title="7시간 14분">
+                                    <span>2시간 10분</span>
+                                </div>
+                                <div class="course-amount" title="0">
+                                    <div class="free">무료</div>
+                                </div>
+                                <div class="course-icon" title="">
+                                    <span class="best">BEST</span>
+                                </div>
+                            </div>		
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="new">
+            <div class="lecture1">
+                <div class="lecture-text">
+                    <h3 class="lecture-text1-1">
+                        LearunUs New
+                        <span></span>
+                    </h3>
+                    <div class="lecture-text2">신규 콘텐츠를 가장 먼저 만나보세요!</div>
+                </div>
+                <div class="lecture-list">
+                    <div class="lecture-list1">
+                        <a href="https://www.learnus.org/local/ubonline/view.php?id=236151">
+                            <div class="course-image">
+                                <img src="1.png" class="image" alt="쉽고 재미있는 중고등 영어">		
+                            </div>
+                            <div class="course-label">
+                            </div>
+                            <div class="course-body">
+                                <div class="course-professor" title="교육대학원">
+                                    이동하, 여진영, 유영재 
+                                </div>
+                                <div class="course-title" title="쉽고 재미있는 중고등 영어">
+                                    <span class="ellip">ChapGPT 스마트하게 <br> 활용하기</span>
+                                </div>
+                                <div class="course-studytime" title="7시간 14분">
+                                    <span>1시간 33분</span>
+                                </div>
+                                <div class="course-amount" title="0">
+                                    <div class="free">60,000원</div>
+                                </div>
+                                <div class="course-icon" title="">
+                                    <span class="best">BEST</span>
+                                </div>
+                            </div>		
+                        </a>
+                        <a href="https://www.learnus.org/local/ubonline/view.php?id=236152">
+                            <div class="course-image">
+                                <img src="2.png" class="image" alt="???">		
+                            </div>
+                            <div class="course-label">
+                            </div>
+                            <div class="course-body">
+                                <div class="course-professor" title="교육대학원">
+                                    정수복  
+                                </div>
+                                <div class="course-title" title="쉽고 재미있는 중고등 영어">
+                                    <span class="ellip">타인의 고통에 귀 기울이는 <br> 사회학</span>
+                                </div>
+                                <div class="course-studytime" title="7시간 14분">
+                                    <span>3시간 00분</span>
+                                </div>
+                                <div class="course-amount" title="0">
+                                    <div class="free">무료</div>
+                                </div>
+                                <div class="course-icon" title="">
+                                </div>
+                            </div>		
+                        </a>
+                        <a href="https://www.learnus.org/local/ubonline/view.php?id=236154">
+                            <div class="course-image">
+                                <img src="3.jpg" class="image" alt="???">		
+                            </div>
+                            <div class="course-label">
+                            </div>
+                            <div class="course-body">
+                                <div class="course-professor" title="교육대학원">
+                                    이승종 
+                                </div>
+                                <div class="course-title" title="쉽고 재미있는 중고등 영어">
+                                    <span class="ellip"><br>철학의 길</span>
+                                </div>
+                                <div class="course-studytime" title="7시간 14분">
+                                    <span>78시간 00분</span>
+                                </div>
+                                <div class="course-amount" title="0">
+                                    <div class="free">무료</div>
+                                </div>
+                                <div class="course-icon" title="">
+                                    <span class="best">BEST</span>
+                                </div>
+                            </div>		
+                        </a>
+                        <a href="https://www.learnus.org/local/ubonline/view.php?id=236140">
+                            <div class="course-image">
+                                <img src="4.jpg" class="image" alt="???">		
+                            </div>
+                            <div class="course-label">
+                            </div>
+                            <div class="course-body">
+                                <div class="course-professor" title="교육대학원">
+                                    김영찬, 김철웅
+                                </div>
+                                <div class="course-title" title="쉽고 재미있는 중고등 영어">
+                                    <span class="ellip">신시장 마케팅 전략: <br> Performance Marketing</span>
+                                </div>
+                                <div class="course-studytime" title="7시간 14분">
+                                    <span>2시간 00분</span>
+                                </div>
+                                <div class="course-amount" title="0">
+                                    <div class="free">95,000원</div>
+                                </div>
+                                <div class="course-icon" title="">
+                                    <span class="best">BEST</span>
+                                </div>
+                            </div>		
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="rec-lec">
+            <div class="container">
+                <h3 class="rec-lec-text">
+                        어떤 강의를 들어야 할지 모르겠다면?
+                        <span></span>
+                </h3>
+                <div class="lectures-icons">
+                    <a href="https://www.learnus.org/local/ubonline/index.php?tmid=1">
+                        <img src="https://www.learnus.org/theme/coursemosv2/pix/login/theme_1.png"><p class="lectures-icon-text">글로벌 메가 트렌드<br>ESG</p>
+                    </a>
+                    <a href="https://www.learnus.org/local/ubonline/index.php?tmid=2">
+                        <img src="https://www.learnus.org/theme/coursemosv2/pix/login/theme_2.png"><p class="lectures-icon-text">가상을 넘어 현실로, <br>메타버스</p>                            </a>
+                    <a href="https://www.learnus.org/local/ubonline/index.php?tmid=3">
+                        <img src="https://www.learnus.org/theme/coursemosv2/pix/login/theme_3.png"><p class="lectures-icon-text">새로운 학기, 새로운 도전!</p>
+                    </a>
+                    <a href="https://www.learnus.org/local/ubonline/index.php?tmid=4">
+                        <img src="https://www.learnus.org/theme/coursemosv2/pix/login/theme_4.png"><p class="lectures-icon-text">치아 방치 큰일 나요!<br>치의학</p>
+                    </a>
+                    <a href="https://www.learnus.org/local/ubonline/index.php?tmid=5">
+                        <img src="https://www.learnus.org/theme/coursemosv2/pix/login/theme_5.png"><p class="lectures-icon-text">당신도 부자 될 수 있다!<br>재테크 금융</p>
+                    </a>
+                    <a href="https://www.learnus.org/local/ubonline/index.php?tmid=6">
+                        <img src="https://www.learnus.org/theme/coursemosv2/pix/login/theme_6.png"><p class="lectures-icon-text">4차 산업 스펙 쌓기!<br>데이터사이언스/AI</p>
+                    </a>
+                    <a href="https://www.learnus.org/local/ubonline/index.php?tmid=7">
+                        <img src="https://www.learnus.org/theme/coursemosv2/pix/login/theme_7.png"><p class="lectures-icon-text">부캐 전성시대<br>취미 활동 찾기</p>
+                    </a>
+                    <a href="https://www.learnus.org/local/ubonline/index.php?tmid=8">
+                        <img src="https://www.learnus.org/theme/coursemosv2/pix/login/theme_8.png"><p class="lectures-icon-text">배움에는 끝이 없다!<br>연세인생학교</p>
+                    </a>
+                    <a href="https://www.learnus.org/local/ubonline/open.php?tmid=9">
+                        <img src="https://www.learnus.org/theme/coursemosv2/pix/login/theme_9.png"><p class="lectures-icon-text">연대생의 진로꿀팁!<br>연세처방전</p>
+                    </a>
+                    <a href="https://www.learnus.org/local/ubonline/open.php?tmid=10">
+                        <img src="https://www.learnus.org/theme/coursemosv2/pix/login/theme_10.png"><p class="lectures-icon-text">연세대학교가 목표라면?!<br>학과 알아보기</p>
+                    </a>
+                    <a href="https://www.learnus.org/local/ubonline/open.php?tmid=11">
+                        <img src="https://www.learnus.org/theme/coursemosv2/pix/login/theme_11.png"><p class="lectures-icon-text">대학강의는 처음이지?<br>연세대 우수강의</p>                            </a>
+                    <a href="https://www.learnus.org/local/ubonline/open.php?tmid=12">
+                        <img src="https://www.learnus.org/theme/coursemosv2/pix/login/theme_12.png"><p class="lectures-icon-text">알아두면 쓸모있는<br>연세 지식 창고</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="about">
+            <div class="about-container">
+                <div class="about-box">
+                    <p class="about-box-title">About</p>
+                    <p class="about-box-title1"><span>언제나 어디서나 미래를 밝히는 배움이 있는 곳</span><br>Like Us, Luminous, LearnUs</p>
+                    <a href="/html/intro/learnus/index.php">자세히보기</a>
+                    <img src="https://www.learnus.org/theme/coursemosv2/pix/login/main_banner.png">
+                </div>
+            </div>
+        </div>
+        <div class="series-lec">
+            <div class="lecture1">
+                <div class="lecture-text">
+                    <h3 class="lecture-text1-2">
+                        LearnUs 시리즈 강좌
+                        <span></span>
+                    </h3>
+                    <div class="lecture-text2">배움은 즐겁고, 교육은 유익하다!</div>
+                </div>
+                <div class="lecture-list">
+                    <div class="lecture-list1">
+                        <a href="https://www.learnus.org/local/ubonline/view.php?id=236059">
+                            <div class="course-image">
+                                <img src="5.jpg" class="image" alt="쉽고 재미있는 중고등 영어">		
+                            </div>
+                            <div class="course-label">
+                            </div>
+                            <div class="course-body">
+                                <div class="course-professor" title="교육대학원">
+                                    김용빈 
+                                </div>
+                                <div class="course-title" title="쉽고 재미있는 중고등 영어">
+                                    <span class="ellip">바이오테크의 미래</span>
+                                </div>
+                                <div class="course-studytime" title="7시간 14분">
+                                    <span>1시간 35분</span>
+                                </div>
+                                <div class="course-amount" title="0">
+                                    <div class="free">50,000원</div>
+                                </div>
+                                <div class="course-icon" title="">
+                                    <span class="best">BEST</span>
+                                </div>
+                            </div>		
+                        </a>
+                        <a href="https://www.learnus.org/local/ubonline/view.php?id=235882">
+                            <div class="course-image">
+                                <img src="6.jpg" class="image" alt="???">		
+                            </div>
+                            <div class="course-label">                                                          
+                            </div>
+                            <div class="course-body">
+                                <div class="course-professor" title="교육대학원">
+                                이준기  
+                                </div>
+                                <div class="course-title" title="쉽고 재미있는 중고등 영어">
+                                    <span class="ellip">당신을 위한 AI 활용법</span>
+                                </div>
+                                <div class="course-studytime" title="7시간 14분">
+                                    <span>1시간 46분</span>
+                                </div>
+                                <div class="course-amount" title="0">
+                                    <div class="free">80,000원</div>
+                                </div>
+                                <div class="course-icon" title="">
+                                    <span class="best">BEST</span>
+                                </div>
+                            </div>		
+                        </a>
+                        <a href="https://www.learnus.org/local/ubonline/view.php?id=235691">
+                            <div class="course-image">
+                                <img src="7.jpg" class="image" alt="???">		
+                            </div>
+                            <div class="course-label">
+                            </div>
+                            <div class="course-body">
+                                <div class="course-professor" title="교육대학원">
+                                    휴면계정
+                                </div>
+                                <div class="course-title" title="쉽고 재미있는 중고등 영어">
+                                    <span class="ellip">2023 트렌드 엿보기</span>
+                                </div>
+                                <div class="course-studytime" title="7시간 14분">
+                                    <span>1시간 40분</span>
+                                </div>
+                                <div class="course-amount" title="0">
+                                    <div class="free">50,000</div>
+                                </div>
+                                <div class="course-icon" title="">
+                                    <span class="best">BEST</span>
+                                </div>
+                            </div>		
+                        </a>
+                        <a href="https://www.learnus.org/local/ubonline/view.php?id=235671">
+                            <div class="course-image">
+                                <img src="8.jpg" class="image" alt="???">		
+                            </div>
+                            <div class="course-label">
+                            </div>
+                            <div class="course-body">
+                                <div class="course-professor" title="교육대학원">
+                                    배태준
+                                </div>
+                                <div class="course-title" title="쉽고 재미있는 중고등 영어">
+                                    <span class="ellip">당신의 기업을 살릴 법</span>
+                                </div>
+                                <div class="course-studytime" title="7시간 14분">
+                                    <span>1시간 41분</span>
+                                </div>
+                                <div class="course-amount" title="0">
+                                    <div class="free">150,000원</div>
+                                </div>
+                                <div class="course-icon" title="">
+                                    <span class="best">BEST</span>
+                                </div>
+                            </div>		
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="free-lec">
+            <div class="lecture1">
+                <div class="lecture-text">
+                    <h3 class="lecture-text1-3">
+                        무료 강좌
+                        <span></span>
+                    </h3>
+                    <div class="lecture-text2">무료강좌로 가볍게 시작해 보세요.</div>
+                </div>
+                <div class="lecture-list">
+                    <div class="lecture-list1">
+                        <a href="https://www.learnus.org/local/ubonline/view.php?id=197499">
+                            <div class="course-image">
+                                <img src="9.png" class="image" alt="쉽고 재미있는 중고등 영어">		
+                            </div>
+                            <div class="course-label">
+                            </div>
+                            <div class="course-body">
+                                <div class="course-professor" title="교육대학원">
+                                    미래교육원
+                                </div>
+                                <div class="course-title" title="쉽고 재미있는 중고등 영어">
+                                    <span class="ellip">알기 쉬운 심리학</span>
+                                </div>
+                                <div class="course-studytime" title="7시간 14분">
+                                    <span>32분</span>
+                                </div>
+                                <div class="course-amount" title="0">
+                                    <div class="free">무료</div>
+                                </div>
+                                <div class="course-icon" title="">
+                                    <span class="best">BEST</span>
+                                </div>
+                            </div>		
+                        </a>
+                        <a href="https://www.learnus.org/local/ubonline/view.php?id=197485">
+                            <div class="course-image">
+                                <img src="10.png" class="image" alt="???">		
+                            </div>
+                            <div class="course-label">
+                            </div>
+                            <div class="course-body">
+                                <div class="course-professor" title="교육대학원">
+                                    미래교육원, 양혜주  
+                                </div>
+                                <div class="course-title" title="쉽고 재미있는 중고등 영어">
+                                    <span class="ellip">맨손 필라테스 20</span>
+                                </div>
+                                <div class="course-studytime" title="7시간 14분">
+                                    <span>36분</span>
+                                </div>
+                                <div class="course-amount" title="0">
+                                    <div class="free">무료</div>
+                                </div>
+                                <div class="course-icon" title="">
+                                </div>
+                            </div>		
+                        </a>
+                        <a href="https://www.learnus.org/local/ubonline/view.php?id=236060">
+                            <div class="course-image">
+                                <img src="11.png" class="image" alt="???">		
+                            </div>
+                            <div class="course-label">
+                            </div>
+                            <div class="course-body">
+                                <div class="course-professor" title="교육대학원">
+                                     
+                                </div>
+                                <div class="course-title" title="쉽고 재미있는 중고등 영어">
+                                    <span class="ellip">Online Korean at Yonsei<br>Basic1_인사와 소개</span>
+                                </div>
+                                <div class="course-studytime" title="7시간 14분">
+                                    <span>20분</span>
+                                </div>
+                                <div class="course-amount" title="0">
+                                    <div class="free">무료</div>
+                                </div>
+                                <div class="course-icon" title="">
+                                </div>
+                            </div>		
+                        </a>
+                        <a href="https://www.learnus.org/local/ubonline/view.php?id=216528">
+                            <div class="course-image">
+                                <img src="12.jpg" class="image" alt="???">		
+                            </div>
+                            <div class="course-label">
+                            </div>
+                            <div class="course-body">
+                                <div class="course-professor" title="교육대학원">
+                                    장원섭
+                                </div>
+                                <div class="course-title" title="쉽고 재미있는 중고등 영어">
+                                    <span class="ellip">일의 행복과 장인성(匠人性)</span>
+                                </div>
+                                <div class="course-studytime" title="7시간 14분">
+                                    <span>2시간 47분</span>
+                                </div>
+                                <div class="course-amount" title="0">
+                                    <div class="free">무료</div>
+                                </div>
+                                <div class="course-icon" title="">
+                                </div>
+                            </div>		
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="enterprise">
+        <div class="enterprise-container">
+            <div class="enterprise-title">
+                <div class="enterprise-title1">
+                    <h3>기업/단체 교육 <br>LearnUs에서 시작하세요.</h3>
+                    <h4>LearnUs는 유수 기업 및 공공기관에 콘텐츠를 제공하고 있습니다.<br>LearnUs의 온라인 교육 플랫폼을 활용하여 기업 및 단체 교육을 합리적인 비용으로 쉽고 빠르게 진행할 수 있습니다.</h4>
+                </div>
+                <div class="enterprise-area"><a href="https://www.learnus.org/enterprise/">자세히보기</a></div>
+            </div>
+            <ul class="enterprise-box">
+                <li><img src="	https://www.learnus.org/theme/coursemosv2/pix/login/Logo_SCL-healthcare_w.png"></li>
+                <li><img src="https://www.learnus.org/theme/coursemosv2/pix/login/Logo_Yeongdeungpo-Gu_w.png"></li>
+                <li><img src="https://www.learnus.org/theme/coursemosv2/pix/login/Logo_GS_w.png"></li>
+                <li><img src="	https://www.learnus.org/theme/coursemosv2/pix/login/Logo_ShinhanCard_w.png"></li>
+                <li><img src="https://www.learnus.org/theme/coursemosv2/pix/login/Logo_KOMIPO_w.png"></li>
+            </ul>
+        </div>
+    </div>
+    <div class="lastmenu">
+        <div class="lastmenu-container">
+            <div class="row">
+                <div class="lastmenu1">
+                    <div class="lastmenu2">
+                        <div class="lastmenu-main">
+                            <p class="lastmenu-title">공지사항</p>
+                            <a href="https://www.learnus.org/mod/ubboard/view.php?id=2009295" class="more">더보기<span></span></a>
+                        </div>
+                        <ul class="lastmenu-list">
+                            <li>
+                                <a href="https://www.learnus.org/mod/ubboard/article.php?id=2009295&amp;bwid=989202" class="title">런어스(LearnUs) 홈페이지 리뉴얼 안내</a> 
+                                <span class="date"></span>
+                            </li>
+                            <li>
+                                <a href="https://www.learnus.org/mod/ubboard/article.php?id=2009295&amp;bwid=988967" class="title">기업/단체교육 수강 및 추천 콘텐츠 안내</a> 
+                                <span class="date"></span>
+                            </li>
+                            <li>
+                                <a href="https://www.learnus.org/mod/ubboard/article.php?id=2009295&amp;bwid=988516" class="title">[중요] 학위 - 비학위 시스템 분리 관련 안내(Information on the separation of degree and non-degree sites)</a> 
+                                <span class="date"></span>
+                            </li>
+                            <li>
+                                <a href="https://www.learnus.org/mod/ubboard/article.php?id=2009295&amp;bwid=546737" class="title">LearnUs 교육과정 안내</a> 
+                                <span class="date"></span>
+                            </li>
+                            <li>
+                                <a href="https://www.learnus.org/mod/ubboard/article.php?id=2009295&amp;bwid=546736" class="title">LearnUs 회원가입 절차 안내</a> 
+                                <span class="date"></span>
+                            </li>
+                        </ul>
+                    </div>  
+                </div>
+                <div class="lastmenu1">
+                    <div class="lastmenu2-sub">
+                        <div class="lastmenu-main">
+                            <p class="lastmenu-title">FAQ</p>
+                            <a href="https://www.learnus.org/mod/ubboard/view.php?id=2009297" class="more">더보기<span></span></a>
+                        </div>
+                        <ul class="lastmenu-list">
+                            <li>
+                                <a href="https://www.learnus.org/mod/ubboard/article.php?id=2009297&amp;bwid=989201" class="title">[강의실] 나의 강의실은 어디서 확인하나요?</a> 
+                                <span class="date"></span>
+                            </li>
+                            <li>
+                                <a href="https://www.learnus.org/mod/ubboard/article.php?id=2009297&amp;bwid=989200" class="title">[결제/영수증] 개인 수강생의 경우 영수증 발급이 가능한가요?</a> 
+                                <span class="date"></span>
+                            </li>
+                            <li>
+                                <a href="https://www.learnus.org/mod/ubboard/article.php?id=2009297&amp;bwid=794834" class="title">[수료증] 수료 확인 및 수료증 발급은 어디서 확인하나요?</a> 
+                                <span class="date"></span>
+                            </li>
+                            <li>
+                                <a href="https://www.learnus.org/mod/ubboard/article.php?id=2009297&amp;bwid=546979" class="title">[동영상] 런어스 동영상 오류 유형별 조치사항</a> 
+                                <span class="date"></span>
+                            </li>
+                            <li>
+                                <a href="https://www.learnus.org/mod/ubboard/article.php?id=2009297&amp;bwid=546094" class="title">[문의처] 과목별 문의처 / 수료 및 수료증 발급 관련해서 궁금합니다.</a> 
+                                <span class="date"></span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        발바닥
+    </div>
+</body>
+</html>
